@@ -7,13 +7,43 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		05A1F28D353FF1CB79047B9D /* Pods_StajTakipUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7EB7DFFEB7B54ADD0769C884 /* Pods_StajTakipUITests.framework */; };
+		B96C53033F27898FE624BB65 /* Pods_StajTakip.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F87B471F7B94D30F6AC3078B /* Pods_StajTakip.framework */; };
+		D880623985D2F69160E15421 /* Pods_StajTakipTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA3AEB9838E87F5D69A5338F /* Pods_StajTakipTests.framework */; };
+		EA11B40720DC24F80085FD8A /* StaffVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA11B40620DC24F80085FD8A /* StaffVC.swift */; };
+		EA11B40920DC25290085FD8A /* StaffTVCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA11B40820DC25290085FD8A /* StaffTVCell.swift */; };
+		EA11B40B20DC2C540085FD8A /* AddStaffVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA11B40A20DC2C530085FD8A /* AddStaffVC.swift */; };
+		EA18660420A39BD800992077 /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA18660320A39BD800992077 /* LoginVC.swift */; };
+		EA5B0A6420C095D300BD42C9 /* AddDayVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA5B0A6320C095D300BD42C9 /* AddDayVC.swift */; };
+		EA5B0A6820C1ED5D00BD42C9 /* DayOrgDetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA5B0A6720C1ED5D00BD42C9 /* DayOrgDetailVC.swift */; };
 		EA640A0E20A21A6A00ECB569 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA640A0D20A21A6A00ECB569 /* AppDelegate.swift */; };
-		EA640A1020A21A6A00ECB569 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA640A0F20A21A6A00ECB569 /* ViewController.swift */; };
 		EA640A1320A21A6A00ECB569 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA640A1120A21A6A00ECB569 /* Main.storyboard */; };
 		EA640A1520A21A6C00ECB569 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EA640A1420A21A6C00ECB569 /* Assets.xcassets */; };
 		EA640A1820A21A6C00ECB569 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA640A1620A21A6C00ECB569 /* LaunchScreen.storyboard */; };
 		EA640A2320A21A6C00ECB569 /* StajTakipTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA640A2220A21A6C00ECB569 /* StajTakipTests.swift */; };
 		EA640A2E20A21A6C00ECB569 /* StajTakipUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA640A2D20A21A6C00ECB569 /* StajTakipUITests.swift */; };
+		EA6C690320ECEC4E001716A9 /* EditProfilVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA6C690220ECEC4E001716A9 /* EditProfilVC.swift */; };
+		EA7CC4AC20F1595E008DD87A /* ProfilStaffVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA7CC4AB20F1595E008DD87A /* ProfilStaffVC.swift */; };
+		EA7CC4AE20F159DE008DD87A /* EditProfilStaffVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA7CC4AD20F159DE008DD87A /* EditProfilStaffVC.swift */; };
+		EA7CC4B020F2730A008DD87A /* RateTheDaySaveVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA7CC4AF20F2730A008DD87A /* RateTheDaySaveVC.swift */; };
+		EA8C329B20A22B7F004205C5 /* ProfilVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA8C329A20A22B7F004205C5 /* ProfilVC.swift */; };
+		EA8C32A120A38D8F004205C5 /* InternshipVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA8C32A020A38D8F004205C5 /* InternshipVC.swift */; };
+		EAB14EA920E238EC0087102A /* AssessInternshipVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAB14EA820E238EC0087102A /* AssessInternshipVC.swift */; };
+		EAB14EAD20E23A160087102A /* InternshipList.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAB14EAC20E23A160087102A /* InternshipList.swift */; };
+		EAB14EAF20E23B510087102A /* InternshipListTVCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAB14EAE20E23B510087102A /* InternshipListTVCell.swift */; };
+		EAB14EB120E248B40087102A /* ChangeResultVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAB14EB020E248B40087102A /* ChangeResultVC.swift */; };
+		EAB14EB520E2825F0087102A /* RemoveStaffVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAB14EB420E2825F0087102A /* RemoveStaffVC.swift */; };
+		EAE6279E20A7104A0013D636 /* CompaniesVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAE6279D20A7104A0013D636 /* CompaniesVC.swift */; };
+		EAE627A020A710770013D636 /* CompaniesTVCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAE6279F20A710770013D636 /* CompaniesTVCell.swift */; };
+		EAE627A220A77BE90013D636 /* CompaniesDetailsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAE627A120A77BE90013D636 /* CompaniesDetailsVC.swift */; };
+		EAE947C920BF536000D06758 /* DayVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAE947C820BF536000D06758 /* DayVC.swift */; };
+		EAE947CB20BF53D300D06758 /* DayTVCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAE947CA20BF53D300D06758 /* DayTVCell.swift */; };
+		EAEE4EE220BB49B400AD8D9B /* MyInternshipViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAEE4EE120BB49B400AD8D9B /* MyInternshipViewController.swift */; };
+		EAEE4EE420BB4A9300AD8D9B /* MyIntershipTCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAEE4EE320BB4A9300AD8D9B /* MyIntershipTCell.swift */; };
+		EAEE4EE620BB607800AD8D9B /* AddCompaniesVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAEE4EE520BB607800AD8D9B /* AddCompaniesVC.swift */; };
+		EAF437CA20E68B5C00BE4D77 /* LoginStaffVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAF437C920E68B5C00BE4D77 /* LoginStaffVC.swift */; };
+		EAF437CC20E694BC00BE4D77 /* RateTheDayVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAF437CB20E694BC00BE4D77 /* RateTheDayVC.swift */; };
+		EAF437CE20E6971100BE4D77 /* RateTheDayTVCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAF437CD20E6971100BE4D77 /* RateTheDayTVCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,9 +64,21 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		23E0B384D72830FB76DE7A24 /* Pods-StajTakipTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StajTakipTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-StajTakipTests/Pods-StajTakipTests.release.xcconfig"; sourceTree = "<group>"; };
+		3431074293A1DC4AB8956D21 /* Pods-StajTakipUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StajTakipUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-StajTakipUITests/Pods-StajTakipUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		34FBC947929528D32644FC17 /* Pods-StajTakip.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StajTakip.debug.xcconfig"; path = "Pods/Target Support Files/Pods-StajTakip/Pods-StajTakip.debug.xcconfig"; sourceTree = "<group>"; };
+		3805BCB4BD2A9E2FEB2428A7 /* Pods-StajTakip.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StajTakip.release.xcconfig"; path = "Pods/Target Support Files/Pods-StajTakip/Pods-StajTakip.release.xcconfig"; sourceTree = "<group>"; };
+		3BDCB0E7867BB108C9B88401 /* Pods-StajTakipTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StajTakipTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-StajTakipTests/Pods-StajTakipTests.debug.xcconfig"; sourceTree = "<group>"; };
+		64991A240FC952080DDC7B51 /* Pods-StajTakipUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StajTakipUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-StajTakipUITests/Pods-StajTakipUITests.release.xcconfig"; sourceTree = "<group>"; };
+		7EB7DFFEB7B54ADD0769C884 /* Pods_StajTakipUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_StajTakipUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA11B40620DC24F80085FD8A /* StaffVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StaffVC.swift; sourceTree = "<group>"; };
+		EA11B40820DC25290085FD8A /* StaffTVCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StaffTVCell.swift; sourceTree = "<group>"; };
+		EA11B40A20DC2C530085FD8A /* AddStaffVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddStaffVC.swift; sourceTree = "<group>"; };
+		EA18660320A39BD800992077 /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
+		EA5B0A6320C095D300BD42C9 /* AddDayVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddDayVC.swift; sourceTree = "<group>"; };
+		EA5B0A6720C1ED5D00BD42C9 /* DayOrgDetailVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DayOrgDetailVC.swift; sourceTree = "<group>"; };
 		EA640A0A20A21A6A00ECB569 /* StajTakip.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StajTakip.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EA640A0D20A21A6A00ECB569 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		EA640A0F20A21A6A00ECB569 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		EA640A1220A21A6A00ECB569 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		EA640A1420A21A6C00ECB569 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EA640A1720A21A6C00ECB569 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +89,30 @@
 		EA640A2920A21A6C00ECB569 /* StajTakipUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StajTakipUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EA640A2D20A21A6C00ECB569 /* StajTakipUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StajTakipUITests.swift; sourceTree = "<group>"; };
 		EA640A2F20A21A6C00ECB569 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EA6C690220ECEC4E001716A9 /* EditProfilVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditProfilVC.swift; sourceTree = "<group>"; };
+		EA7CC4AB20F1595E008DD87A /* ProfilStaffVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfilStaffVC.swift; sourceTree = "<group>"; };
+		EA7CC4AD20F159DE008DD87A /* EditProfilStaffVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditProfilStaffVC.swift; sourceTree = "<group>"; };
+		EA7CC4AF20F2730A008DD87A /* RateTheDaySaveVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RateTheDaySaveVC.swift; sourceTree = "<group>"; };
+		EA8C329A20A22B7F004205C5 /* ProfilVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfilVC.swift; sourceTree = "<group>"; };
+		EA8C32A020A38D8F004205C5 /* InternshipVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InternshipVC.swift; sourceTree = "<group>"; };
+		EAB14EA820E238EC0087102A /* AssessInternshipVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssessInternshipVC.swift; sourceTree = "<group>"; };
+		EAB14EAC20E23A160087102A /* InternshipList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InternshipList.swift; sourceTree = "<group>"; };
+		EAB14EAE20E23B510087102A /* InternshipListTVCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InternshipListTVCell.swift; sourceTree = "<group>"; };
+		EAB14EB020E248B40087102A /* ChangeResultVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChangeResultVC.swift; sourceTree = "<group>"; };
+		EAB14EB420E2825F0087102A /* RemoveStaffVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoveStaffVC.swift; sourceTree = "<group>"; };
+		EAE6279D20A7104A0013D636 /* CompaniesVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompaniesVC.swift; sourceTree = "<group>"; };
+		EAE6279F20A710770013D636 /* CompaniesTVCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompaniesTVCell.swift; sourceTree = "<group>"; };
+		EAE627A120A77BE90013D636 /* CompaniesDetailsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompaniesDetailsVC.swift; sourceTree = "<group>"; };
+		EAE947C820BF536000D06758 /* DayVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DayVC.swift; sourceTree = "<group>"; };
+		EAE947CA20BF53D300D06758 /* DayTVCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DayTVCell.swift; sourceTree = "<group>"; };
+		EAEE4EE120BB49B400AD8D9B /* MyInternshipViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyInternshipViewController.swift; sourceTree = "<group>"; };
+		EAEE4EE320BB4A9300AD8D9B /* MyIntershipTCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyIntershipTCell.swift; sourceTree = "<group>"; };
+		EAEE4EE520BB607800AD8D9B /* AddCompaniesVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddCompaniesVC.swift; sourceTree = "<group>"; };
+		EAF437C920E68B5C00BE4D77 /* LoginStaffVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginStaffVC.swift; sourceTree = "<group>"; };
+		EAF437CB20E694BC00BE4D77 /* RateTheDayVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RateTheDayVC.swift; sourceTree = "<group>"; };
+		EAF437CD20E6971100BE4D77 /* RateTheDayTVCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RateTheDayTVCell.swift; sourceTree = "<group>"; };
+		F87B471F7B94D30F6AC3078B /* Pods_StajTakip.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_StajTakip.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA3AEB9838E87F5D69A5338F /* Pods_StajTakipTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_StajTakipTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +120,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B96C53033F27898FE624BB65 /* Pods_StajTakip.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +128,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D880623985D2F69160E15421 /* Pods_StajTakipTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,12 +136,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				05A1F28D353FF1CB79047B9D /* Pods_StajTakipUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0F9BF1025BA692FDDE21D362 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F87B471F7B94D30F6AC3078B /* Pods_StajTakip.framework */,
+				FA3AEB9838E87F5D69A5338F /* Pods_StajTakipTests.framework */,
+				7EB7DFFEB7B54ADD0769C884 /* Pods_StajTakipUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		96B14BDB0BA52F9649B9A54C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				34FBC947929528D32644FC17 /* Pods-StajTakip.debug.xcconfig */,
+				3805BCB4BD2A9E2FEB2428A7 /* Pods-StajTakip.release.xcconfig */,
+				3BDCB0E7867BB108C9B88401 /* Pods-StajTakipTests.debug.xcconfig */,
+				23E0B384D72830FB76DE7A24 /* Pods-StajTakipTests.release.xcconfig */,
+				3431074293A1DC4AB8956D21 /* Pods-StajTakipUITests.debug.xcconfig */,
+				64991A240FC952080DDC7B51 /* Pods-StajTakipUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		EA640A0120A21A6A00ECB569 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +173,8 @@
 				EA640A2120A21A6C00ECB569 /* StajTakipTests */,
 				EA640A2C20A21A6C00ECB569 /* StajTakipUITests */,
 				EA640A0B20A21A6A00ECB569 /* Products */,
+				96B14BDB0BA52F9649B9A54C /* Pods */,
+				0F9BF1025BA692FDDE21D362 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -98,7 +192,10 @@
 			isa = PBXGroup;
 			children = (
 				EA640A0D20A21A6A00ECB569 /* AppDelegate.swift */,
-				EA640A0F20A21A6A00ECB569 /* ViewController.swift */,
+				EA18660320A39BD800992077 /* LoginVC.swift */,
+				EAF437C920E68B5C00BE4D77 /* LoginStaffVC.swift */,
+				EAB14EAA20E2393A0087102A /* Student */,
+				EAB14EAB20E239970087102A /* Company */,
 				EA640A1120A21A6A00ECB569 /* Main.storyboard */,
 				EA640A1420A21A6C00ECB569 /* Assets.xcassets */,
 				EA640A1620A21A6C00ECB569 /* LaunchScreen.storyboard */,
@@ -125,6 +222,46 @@
 			path = StajTakipUITests;
 			sourceTree = "<group>";
 		};
+		EAB14EAA20E2393A0087102A /* Student */ = {
+			isa = PBXGroup;
+			children = (
+				EA8C32A020A38D8F004205C5 /* InternshipVC.swift */,
+				EA8C329A20A22B7F004205C5 /* ProfilVC.swift */,
+				EA6C690220ECEC4E001716A9 /* EditProfilVC.swift */,
+				EAE6279D20A7104A0013D636 /* CompaniesVC.swift */,
+				EAE6279F20A710770013D636 /* CompaniesTVCell.swift */,
+				EAE627A120A77BE90013D636 /* CompaniesDetailsVC.swift */,
+				EAEE4EE520BB607800AD8D9B /* AddCompaniesVC.swift */,
+				EAEE4EE120BB49B400AD8D9B /* MyInternshipViewController.swift */,
+				EAEE4EE320BB4A9300AD8D9B /* MyIntershipTCell.swift */,
+				EAE947C820BF536000D06758 /* DayVC.swift */,
+				EAE947CA20BF53D300D06758 /* DayTVCell.swift */,
+				EA5B0A6320C095D300BD42C9 /* AddDayVC.swift */,
+				EA5B0A6720C1ED5D00BD42C9 /* DayOrgDetailVC.swift */,
+			);
+			path = Student;
+			sourceTree = "<group>";
+		};
+		EAB14EAB20E239970087102A /* Company */ = {
+			isa = PBXGroup;
+			children = (
+				EA7CC4AB20F1595E008DD87A /* ProfilStaffVC.swift */,
+				EA7CC4AD20F159DE008DD87A /* EditProfilStaffVC.swift */,
+				EA11B40620DC24F80085FD8A /* StaffVC.swift */,
+				EA11B40820DC25290085FD8A /* StaffTVCell.swift */,
+				EA11B40A20DC2C530085FD8A /* AddStaffVC.swift */,
+				EAB14EB420E2825F0087102A /* RemoveStaffVC.swift */,
+				EAB14EA820E238EC0087102A /* AssessInternshipVC.swift */,
+				EAB14EAC20E23A160087102A /* InternshipList.swift */,
+				EAB14EAE20E23B510087102A /* InternshipListTVCell.swift */,
+				EAF437CB20E694BC00BE4D77 /* RateTheDayVC.swift */,
+				EAF437CD20E6971100BE4D77 /* RateTheDayTVCell.swift */,
+				EAB14EB020E248B40087102A /* ChangeResultVC.swift */,
+				EA7CC4AF20F2730A008DD87A /* RateTheDaySaveVC.swift */,
+			);
+			path = Company;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +269,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = EA640A3220A21A6C00ECB569 /* Build configuration list for PBXNativeTarget "StajTakip" */;
 			buildPhases = (
+				AA820679F93F65CCCEEA69C1 /* [CP] Check Pods Manifest.lock */,
 				EA640A0620A21A6A00ECB569 /* Sources */,
 				EA640A0720A21A6A00ECB569 /* Frameworks */,
 				EA640A0820A21A6A00ECB569 /* Resources */,
+				67760D29426E8633F4FD21B0 /* [CP] Embed Pods Frameworks */,
+				A649055292D80F5BAB25C55D /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -149,9 +289,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = EA640A3520A21A6C00ECB569 /* Build configuration list for PBXNativeTarget "StajTakipTests" */;
 			buildPhases = (
+				F91FB3AF78A6609C350F7321 /* [CP] Check Pods Manifest.lock */,
 				EA640A1A20A21A6C00ECB569 /* Sources */,
 				EA640A1B20A21A6C00ECB569 /* Frameworks */,
 				EA640A1C20A21A6C00ECB569 /* Resources */,
+				0847C16C87977E1830B0DBE6 /* [CP] Embed Pods Frameworks */,
+				490AB0069BA9A6B611D5E0C7 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -167,9 +310,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = EA640A3820A21A6C00ECB569 /* Build configuration list for PBXNativeTarget "StajTakipUITests" */;
 			buildPhases = (
+				F6EED753110B46F960654C9A /* [CP] Check Pods Manifest.lock */,
 				EA640A2520A21A6C00ECB569 /* Sources */,
 				EA640A2620A21A6C00ECB569 /* Frameworks */,
 				EA640A2720A21A6C00ECB569 /* Resources */,
+				13C73CAC74A6E52030CC0750 /* [CP] Embed Pods Frameworks */,
+				D86F0A1F2FA10F1B05F0883B /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -251,13 +397,192 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0847C16C87977E1830B0DBE6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-StajTakipTests/Pods-StajTakipTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		13C73CAC74A6E52030CC0750 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-StajTakipUITests/Pods-StajTakipUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		490AB0069BA9A6B611D5E0C7 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-StajTakipTests/Pods-StajTakipTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		67760D29426E8633F4FD21B0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-StajTakip/Pods-StajTakip-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/TextFieldEffects/TextFieldEffects.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TextFieldEffects.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-StajTakip/Pods-StajTakip-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A649055292D80F5BAB25C55D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-StajTakip/Pods-StajTakip-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AA820679F93F65CCCEEA69C1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-StajTakip-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D86F0A1F2FA10F1B05F0883B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-StajTakipUITests/Pods-StajTakipUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F6EED753110B46F960654C9A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-StajTakipUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F91FB3AF78A6609C350F7321 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-StajTakipTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		EA640A0620A21A6A00ECB569 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EA640A1020A21A6A00ECB569 /* ViewController.swift in Sources */,
+				EAF437CA20E68B5C00BE4D77 /* LoginStaffVC.swift in Sources */,
+				EAE6279E20A7104A0013D636 /* CompaniesVC.swift in Sources */,
+				EAE627A220A77BE90013D636 /* CompaniesDetailsVC.swift in Sources */,
+				EAE627A020A710770013D636 /* CompaniesTVCell.swift in Sources */,
+				EA5B0A6820C1ED5D00BD42C9 /* DayOrgDetailVC.swift in Sources */,
+				EAEE4EE420BB4A9300AD8D9B /* MyIntershipTCell.swift in Sources */,
+				EA5B0A6420C095D300BD42C9 /* AddDayVC.swift in Sources */,
+				EA11B40B20DC2C540085FD8A /* AddStaffVC.swift in Sources */,
+				EAB14EB120E248B40087102A /* ChangeResultVC.swift in Sources */,
+				EAF437CC20E694BC00BE4D77 /* RateTheDayVC.swift in Sources */,
+				EAEE4EE620BB607800AD8D9B /* AddCompaniesVC.swift in Sources */,
+				EAB14EB520E2825F0087102A /* RemoveStaffVC.swift in Sources */,
+				EA8C32A120A38D8F004205C5 /* InternshipVC.swift in Sources */,
+				EA11B40720DC24F80085FD8A /* StaffVC.swift in Sources */,
+				EAB14EA920E238EC0087102A /* AssessInternshipVC.swift in Sources */,
+				EAB14EAF20E23B510087102A /* InternshipListTVCell.swift in Sources */,
+				EAB14EAD20E23A160087102A /* InternshipList.swift in Sources */,
+				EA18660420A39BD800992077 /* LoginVC.swift in Sources */,
+				EA7CC4AC20F1595E008DD87A /* ProfilStaffVC.swift in Sources */,
+				EA7CC4B020F2730A008DD87A /* RateTheDaySaveVC.swift in Sources */,
+				EA6C690320ECEC4E001716A9 /* EditProfilVC.swift in Sources */,
+				EA11B40920DC25290085FD8A /* StaffTVCell.swift in Sources */,
+				EA7CC4AE20F159DE008DD87A /* EditProfilStaffVC.swift in Sources */,
+				EA8C329B20A22B7F004205C5 /* ProfilVC.swift in Sources */,
+				EAEE4EE220BB49B400AD8D9B /* MyInternshipViewController.swift in Sources */,
+				EAE947C920BF536000D06758 /* DayVC.swift in Sources */,
+				EAE947CB20BF53D300D06758 /* DayTVCell.swift in Sources */,
 				EA640A0E20A21A6A00ECB569 /* AppDelegate.swift in Sources */,
+				EAF437CE20E6971100BE4D77 /* RateTheDayTVCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -428,6 +753,7 @@
 		};
 		EA640A3320A21A6C00ECB569 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 34FBC947929528D32644FC17 /* Pods-StajTakip.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -446,6 +772,7 @@
 		};
 		EA640A3420A21A6C00ECB569 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3805BCB4BD2A9E2FEB2428A7 /* Pods-StajTakip.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -464,6 +791,7 @@
 		};
 		EA640A3620A21A6C00ECB569 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3BDCB0E7867BB108C9B88401 /* Pods-StajTakipTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -485,6 +813,7 @@
 		};
 		EA640A3720A21A6C00ECB569 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 23E0B384D72830FB76DE7A24 /* Pods-StajTakipTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -506,6 +835,7 @@
 		};
 		EA640A3920A21A6C00ECB569 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3431074293A1DC4AB8956D21 /* Pods-StajTakipUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -526,6 +856,7 @@
 		};
 		EA640A3A20A21A6C00ECB569 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 64991A240FC952080DDC7B51 /* Pods-StajTakipUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
